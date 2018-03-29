@@ -34,12 +34,12 @@ namespace ConsoleLayoutRecord
             zuck.Field("numericoField").NumericValue = 100;
 
             if (file.WriteLine())
-                Console.WriteLine("qualcosa è andato storto");
+                Console.WriteLine("something goes wrong...");
 
             if (file.WriteLine("zuck"))
                 Console.WriteLine("qualcosa è andato storto");
 
-            Console.WriteLine("premi un tasto...");
+            Console.WriteLine("hit any key to continue...");
             Console.ReadLine();
 
         }
